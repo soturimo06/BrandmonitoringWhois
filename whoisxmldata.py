@@ -7,8 +7,8 @@ from json import dumps
 import json
 from datetime import datetime
 
-terms = ["arriver"]
-key = "at_vJzTpzSlCboaKedpbLCjM5nJUPeo3"
+terms = ["company"]
+key = "***"
 mode = "purchase"
 data = {"includeSearchTerms": terms, "apiKey": key, "mode": mode, "sinceDate": "2022-11-18"}
 url = "https://brand-alert.whoisxmlapi.com/api/v2"
